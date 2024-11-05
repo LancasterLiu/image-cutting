@@ -14,6 +14,6 @@ yolo.py: use the YOLO8 model to obtain annotations
 
 ## Usage
 1. In my case, the label I need is 2, you should personalize your own label.
-2. make sure all the paths are what you need
-3. download the YOLO8 model([pretrained model](https://docs.ultralytics.com/tasks/detect/)), or train it by yourself, **notes that the YOLOs are trained on Coco dataset so there're some labels they can not detect**
-
+2. Make sure all the paths are what you need
+3. Download the YOLO8 model([pretrained model](https://docs.ultralytics.com/tasks/detect/)), or train it by yourself, **notes that the YOLOs are trained on Coco dataset so there're some labels they can not detect**
+4. I choose to save one image every five frames, you should personalize it based on your video.
