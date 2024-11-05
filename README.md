@@ -1,18 +1,18 @@
 # video_to_labeled_images_based_on_YOLO8
 Aiming to build a pipeline that processes a video to images based on their labels, which could be used to generate datasets. The annotations are generated based on YOLO8. 
 ## Structure
-3. image_cutting.py: cut images based on YOLO labels 
+3.image_cutting.py: cut images based on YOLO labels 
 
---main.py: where you use this pipeline--(on building)
+~~main.py: where you use this pipeline~~(on building)
 
-movefile.py: move each image to the right folder (based on the label id)
+[optional]movefile.py: move each image to the right folder (based on the label id)
 
 requirements.txt: all the packages you need
 
-1. video_processing.py: transform the video to images
+1.video_processing.py: transform the video to images
 
 
-2. yolo.py: use the YOLO8 model to obtain annotations
+2.yolo.py: use the YOLO8 model to obtain annotations
 
 ## Usage
 1. In my case, the label I need is 2, you should personalize your own label.
